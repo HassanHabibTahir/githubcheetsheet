@@ -24,6 +24,8 @@
 - When you later take a look at an older snapshot your vcs
   shows you exactly how it differed from the previous one
 
+<img src="./images/img.jpg">
+
 # VCS is independent
 
 VCS is independent of kind of project / technology / framework you're working with
