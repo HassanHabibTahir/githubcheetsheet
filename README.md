@@ -61,5 +61,6 @@ VCS is independent of kind of project / technology / framework you're working wi
 - Restoring Previous Version;
 
 * Being able to restore the previous version of a file whole project.
-* if the changes you've made.
+* if the changes you've made.![Learn Version Control with Git_ A step-by-step course for the complete beginner](https://user-
+
 * lately prove to be garbage, you can simply undo them in a few clicks.
