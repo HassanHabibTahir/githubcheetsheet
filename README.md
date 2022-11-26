@@ -23,7 +23,7 @@
   time you want
 - When you later take a look at an older snapshot your vcs
   shows you exactly how it differed from the previous one
-
+images.githubusercontent.com/47211929/204083918-17c6a930-6163-48f9-8d1b-7d8a3b36d0de.jpg)
 # VCS is independent
 
 VCS is independent of kind of project / technology / framework you're working with
@@ -59,5 +59,7 @@ VCS is independent of kind of project / technology / framework you're working wi
 - Restoring Previous Version;
 
 * Being able to restore the previous version of a file whole project.
-* if the changes you've made.
+* if the changes you've made.![Learn Version Control with Git_ A step-by-step course for the complete beginner](https://user-
+
 * lately prove to be garbage, you can simply undo them in a few clicks.
+
