@@ -64,3 +64,49 @@ VCS is independent of kind of project / technology / framework you're working wi
 * if the changes you've made.![Learn Version Control with Git_ A step-by-step course for the complete beginner](https://user-
 
 * lately prove to be garbage, you can simply undo them in a few clicks.
+
+### Why use a version Control System.
+
+- understanding What happened
+  -Every time you save a new version of your project, your vsc require you to provide a short description of what was changed.
+
+### Why Use a Version Control System.?
+
+Backup.
+
+- A side-effect of using a distributed VCS like Git is that it can act as a backup.
+- every team member has a full- blown repository of that project on his disk.
+- if central server break down (and your backup drives fail) all you need for recovery is one of your teammates local Git repository
+
+### Different Types of VCS.
+
+#### VSS VISUAL SOURCE SAFE
+
+Microsoft version control program , Oriented towards small software development projects.
+its problem is that any one work in file if he will lock but it is good but is not reliable in now area age.
+
+### SVN (APACHE SUBVERSION)
+
+- SVN IS THE ABBREVIATED FRO MOF APACHE SUBVERSION AND IS A POPULAR VERSION CONTROL SYSTEM.
+
+- but is the problem is that every user has the partial copy of the code , if you will change the code you will send to the central and receive from the central
+- it is centralized version control system.
+
+### GIT
+
+- git is a distributed version control system for tracking changes in source code during software development.
+  It is designed for coordinate work among programmers, but it can be used to track changes in any set of files.
+
+### CVCS
+
+- centralized Version Control System
+
+### DVCS
+
+- Distributed version control system
+  git is Distributed version control system
+  when you working on Git you have a copy of code etc , you can upload your copy of code .
+- you can push pull and update the code.
+  <img src="/images/img1.png" alt="DVCS"/>
+
+- if the central server gets crashed at any point of time, the lost data can easily recovered from any one of the contributors local repository.
