@@ -110,3 +110,44 @@ its problem is that any one work in file if he will lock but it is good but is n
   <img src="/images/img1.png" alt="DVCS"/>
 
 - if the central server gets crashed at any point of time, the lost data can easily recovered from any one of the contributors local repository.
+
+# Installation and Basic workflow.
+
+#### installing and basic setup of Git
+
+[ https://git-scm.com/downloads](https://git-scm.com/downloads);
+
+installation Guide Windows;
+[https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+installation Guide Linux;
+[https://git-scm.com/download/linux](https://git-scm.com/download/linux)
+
+installation Guide Window;
+[https://git-scm.com/download/win](https://git-scm.com/download/win)
+
+### Configuring Git
+
+A couple of very basic configurations should be made before you get started.
+You should set your name and email address as well as enable coloring to pretty
+up command outputs:
+
+```js
+ git config --global user.name “Hassanhabibtahir”
+ git config --global user.email “Hassanhabib@thir.org”
+ git config --global color.ui auto
+```
+
+Basics Operations in Git are.
+
+- initialize
+- Add
+- Commit
+- Pull
+- Push
+
+Advanced Operations in Git are
+
+- Branching
+- Merging
+- Rebasing
