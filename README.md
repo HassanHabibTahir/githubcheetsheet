@@ -162,3 +162,18 @@ In Git the repository is just a simple hidden folder name ".git"
 staging area is a virtual place that collects all the files you want to include in next comment.
 In Git, simple making some changes does not mean they are automatically committed.
 <img src="/images/staging.png" alt="staging area"/>
+
+### Stating with an un versioned ,Local Project
+
+- Open terminal and create directory on your machine
+- C:\Users\myproject
+- Go into directory in terminal
+- initialize repository in this directory
+- 1 git init
+- 2 this will create .git hidden folder in your directory which will make your current folder, a git repository
+- 3 create first.text
+- 4 git status show you untracked files
+- 5 Add these files to your staging area.
+  - tow way to add files to staging area
+  * git add first.text
+  * git add .
