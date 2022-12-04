@@ -151,3 +151,14 @@ Advanced Operations in Git are
 - Branching
 - Merging
 - Rebasing
+
+### Repository
+
+Think of a repository as a kind of database where you your VCS as a kind of database where your VCS stores all the versions and metadata that accumulate in the course of your project.
+In Git the repository is just a simple hidden folder name ".git"
+
+### Staging Area;
+
+staging area is a virtual place that collects all the files you want to include in next comment.
+In Git, simple making some changes does not mean they are automatically committed.
+<img src="/images/staging.png" alt="staging area"/>
