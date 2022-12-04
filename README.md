@@ -165,11 +165,14 @@ In Git, simple making some changes does not mean they are automatically committe
 
 ### Stating with an un versioned ,Local Project
 
-- Open terminal and create directory on your machine
+Open terminal and create directory on your machine
+
 - C:\Users\myproject
 - Go into directory in terminal
 - initialize repository in this directory
-- 1 git init
+
+```js
+ git init
 - 2 this will create .git hidden folder in your directory which will make your current folder, a git repository
 - 3 create first.text
 - 4 git status show you untracked files
@@ -180,14 +183,17 @@ In Git, simple making some changes does not mean they are automatically committe
   * git commit -m "message"
     git commit is very important you provide a proper commit message so that it can be refer back to identify what was added in that commit.
   * git log
+```
 
 ### Reset git changing
 
 git reset unstage the file
 
-- git reset
+```js
+ git reset
   git reset --hard unstage and also remove the changing in the file
-- git reset --hard
+ git reset --hard
+```
 
 ### Ignore Files
 
