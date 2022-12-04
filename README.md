@@ -180,3 +180,23 @@ In Git, simple making some changes does not mean they are automatically committe
   * git commit -m "message"
     git commit is very important you provide a proper commit message so that it can be refer back to identify what was added in that commit.
   * git log
+
+### Reset git changing
+
+git reset unstage the file
+
+- git reset
+  git reset --hard unstage and also remove the changing in the file
+- git reset --hard
+
+### Ignore Files
+
+- Typically , in every project add on every platform there are a couple of files that you don't want to be version controlled.
+
+* .DS_Store
+* NODE_ENV
+* node_modules
+* build
+* logs
+
+## Branching
