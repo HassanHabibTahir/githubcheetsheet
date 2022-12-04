@@ -177,3 +177,6 @@ In Git, simple making some changes does not mean they are automatically committe
   - tow way to add files to staging area
   * git add first.text
   * git add .
+  * git commit -m "message"
+    git commit is very important you provide a proper commit message so that it can be refer back to identify what was added in that commit.
+  * git log
