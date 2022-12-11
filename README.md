@@ -172,7 +172,7 @@ Open terminal and create directory on your machine
 - initialize repository in this directory
 
 ```js
- git init
+  git init
 - 2 this will create .git hidden folder in your directory which will make your current folder, a git repository
 - 3 create first.text
 - 4 git status show you untracked files
@@ -205,4 +205,80 @@ git reset unstage the file
 * build
 * logs
 
-## Branching
+### Branching & Merging
+
+why branching are important;
+
+- in every project , there are always multiple different contexts where work happens;
+- Each feature, bugfix , experiment or alternative of your product is actually a context of its own;
+- there can me unlimited amount of different contexts
+- mostly like , you 'll have at least on context for your main of production state ,and another context for each feature, bugfix , experiment or alternative of your etc.
+
+### Context in Projects;
+
+In real-world projects,work always happens in multiple of these contexts in parallel
+
+- while you're preparing two new variants of your website design context,
+- you're also trying to fix an annoying bug (context 3);
+- On the side , you also update some content on your FAQ pages context4;
+- one of your teammates is working on a new feature for your shopping cart context5;
+- and another colleague is experiment with a whole new login functionality context6;
+
+### why branches are important;
+
+Another example
+
+- Production , development and feature context;
+- production code is tested and deployed and we don't want any problem in that.
+- Development team is working on new features and we don't want that feature to effect production code until it properly tested.
+
+### Working with branches Branches;
+
+- without knowing ,we were already working on a branch
+- This is because branch aren't optional git,
+  you are always working on a branch the currently active , or "checked out"
+  or "HEAD" branch
+- check git status and it will show you current branch
+- the master branch was created by Git automatically for us when we started the project.
+
+### git Branch Commands;
+
+- show list of branches;
+
+```js
+   git branch-v
+```
+
+- Create Git Branch without switching
+  create a new branch with name dev
+
+```js
+git branch new-developer
+```
+
+switch to new branch;
+
+```js
+switch to new-developer
+```
+
+### Merging;
+
+Merge new-developer branch into current active branch;
+
+```js
+git merge new-developer
+```
+
+- git log new-developer master
+  show commit different in two branches
+
+  ```js
+  git log new-developer..master
+  ```
+
+  -merge the code in master branch or main.
+
+```js
+git merge dev
+```
