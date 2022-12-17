@@ -292,6 +292,14 @@ git merge dev
 Commit wraps up changes and saves them permanently in the repository
 Stash save changes temporarily some time you don't want to commit
 
+git stash (add code temporarily)
+git stash pop( remove from stash and add to branch)
+git stash save name (can apply stash with name as like )
+
+```git
+git stash apply stash@{0}
+```
+
 ```bash
 git stash
 git stash save name
