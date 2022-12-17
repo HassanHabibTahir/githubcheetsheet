@@ -296,4 +296,6 @@ Stash save changes temporarily some time you don't want to commit
 git stash
 git stash save name
 git stash list
+git stash pop
+git stash apply stashname
 ```
