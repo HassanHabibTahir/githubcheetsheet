@@ -282,3 +282,7 @@ git merge new-developer
 ```js
 git merge dev
 ```
+
+- if you have changing a two branches,
+  like change and commit in main and other branches;
+  when you merge the two branches together it will create a new branch that the name of other you have to merge
