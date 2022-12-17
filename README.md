@@ -307,3 +307,54 @@ git stash list
 git stash pop
 git stash apply stashname
 ```
+
+### Remote Repository
+
+- About 90% of version control related work happens in the local repository:
+- Staging ,committing ,viewing the status or the log/history etc.
+- if you're the only person working on your project, chances are you'll never need to set up remote repository.
+- Only when it comes to sharing data with your teammates, a remote rep comes into play.
+  - github
+  - gitBucket
+  - gitLab
+
+#### show remote url
+
+```bash
+git remote -v
+```
+
+#### show details of origin.
+
+```bash
+git remote show origin
+```
+
+#### Commands to interact remote repository
+
+```bash
+ git remote add myremote
+```
+
+#### Commands to interact remote repository and branch so it will show logs from that branch of remote.
+
+```bash
+ git log remote/branch
+```
+
+#### git remote add
+
+- add origin with name
+
+```bash
+git remote add hi ( origin link);
+git remote show hi;
+
+```
+
+- push code with origin name
+
+```bash
+git push -u hi master(branch)
+
+```
