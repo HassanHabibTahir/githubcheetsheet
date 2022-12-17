@@ -286,3 +286,14 @@ git merge dev
 - if you have changing a two branches,
   like change and commit in main and other branches;
   when you merge the two branches together it will create a new branch that the name of other you have to merge
+
+### Stash
+
+Commit wraps up changes and saves them permanently in the repository
+Stash save changes temporarily some time you don't want to commit
+
+```bash
+git stash
+git stash save name
+git stash list
+```
