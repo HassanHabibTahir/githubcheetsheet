@@ -1,3 +1,4 @@
+
 To reset a branch to a previous commit in GitHub, you can use the following commands:
 
 ```bash
@@ -24,4 +25,4 @@ git reset --soft commit-hash
 git push --force origin branch-name
 
 
-```
+
